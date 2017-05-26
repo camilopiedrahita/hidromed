@@ -4,10 +4,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { } from '@angular/material';
 
-const materialrModules = [];
+const materialrModules = [ ];
 
 @NgModule({
   imports: [
+    BrowserAnimationsModule,
     CommonModule,
     materialrModules],
   exports: materialrModules,
