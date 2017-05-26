@@ -1,21 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MdButtonModule, MdCheckboxModule, MdSliderModule} from '@angular/material';
+import { } from '@angular/material';
+
+const materialrModules = [];
 
 @NgModule({
   imports: [
     CommonModule,
-    MdButtonModule,
-    MdCheckboxModule,
-     MdSliderModule
-  ],
-  exports: [
-    MdButtonModule,
-    MdCheckboxModule,
-     MdSliderModule
-    ],
+    materialrModules],
+  exports: materialrModules,
   declarations: []
 })
 export class MaterialModule { }
