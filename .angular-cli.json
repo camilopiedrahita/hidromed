@@ -21,7 +21,8 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "styles.css",
-        "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"
+        "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
