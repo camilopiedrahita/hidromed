@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { } from '@angular/material';
+import { MdInputModule } from '@angular/material';
 
-const materialrModules = [ ];
+const materialrModules = [ MdInputModule ];
 
 @NgModule({
   imports: [
