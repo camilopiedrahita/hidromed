@@ -44,6 +44,14 @@
                 font-weight: 500;
                 letter-spacing: 1px;
             }
+            .tittletext{
+              margin-top: 10px;
+                font-size: 20px;
+                color: #0088D8;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+
             .submitButton{
                 background-color: #0088D8;
                 color: #fff;
