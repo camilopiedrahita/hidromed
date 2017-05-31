@@ -1,3 +1,53 @@
-<p>
-  home works!
-</p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Monitoree el recurso hídrico</h1>
+    <p class="lead">A través de este portal podrá monitorear sus consumos.</p>
+  </div>
+</div>
+<div class="container">
+  <div class="card-deck">
+    <div class="card center">
+      <i class="fa fa-tachometer fa-5x" aria-hidden="true"></i>
+      <div class="card-block">
+        <h4 class="card-title">Tablero Rápido</h4>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
+          bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <a [routerLink]="['/tablero-rapido']" class="btn btn-primary">Ir al tablero rápido</a>
+      </div>
+    </div>
+    <div class="card center">
+      <i class="fa fa-area-chart fa-5x" aria-hidden="true"></i>
+      <div class="card-block">
+        <h4 class="card-title">Mis Gráficos</h4>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+      <div class="card-footer">
+        <a [routerLink]="['/mis-graficos']" class="btn btn-primary">Ir a mis gráficos</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<footer>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h4><strong>Hidromed S.A.</strong>
+        </h4>
+        <p>Bogotá, Colombia
+          <br>Calle 99 # 60 - 72</p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i> (+57-1) 823-77-12</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:contactenos@hidromed.com.co">contactenos@hidromed.com.co</a>
+          </li>
+        </ul>
+        <p>Copyright &copy; Hidromed S.A. 2017</p>
+      </div>
+    </div>
+  </div>
+</footer>
