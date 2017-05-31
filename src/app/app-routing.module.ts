@@ -22,11 +22,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-export const routableComponents = [
-  MisGraficosComponent,
-  TableroRapidoComponent,
-  PerfilComponent,
-  LoginComponent,
-  PageNotFoundComponent
-];

@@ -5,25 +5,33 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { AppRoutingModule, routableComponents } from './app-routing.module';
+
+
+import { MisGraficosModule } from './mis-graficos/mis-graficos.module';
+import { TableroRapidoModule } from './tablero-rapido/tablero-rapido.module';
+import { AppRoutingModule } from './app-routing.module';
+
 import { PerfilComponent } from './perfil/perfil.component';
+import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    routableComponents,
     NavbarComponent,
     PerfilComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MisGraficosModule,
+    TableroRapidoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
